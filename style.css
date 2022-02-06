@@ -189,6 +189,13 @@ h2 {
   box-shadow: none;
 }
 
+.project-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .social {
   display: flex;
   justify-content: space-evenly;
@@ -212,4 +219,9 @@ h2 {
 a > img {
   height: 50px;
   width: auto;
+}
+
+footer {
+  height: 40px;
+  width: 100%;
 }
